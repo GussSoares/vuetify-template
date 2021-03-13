@@ -1,6 +1,7 @@
 # Vuetify-material-dashboard-pro-clone
 
-[![Build Status](https://travis-ci.com/GussSoares/vuetify-template.svg?branch=main)](https://travis-ci.com/GussSoares/vuetify-template)
+[![Build Status](https://travis-ci.com/GussSoares/vuetify-template.svg?branch=main&style=flat-square&logo=appveyor)](https://travis-ci.com/GussSoares/vuetify-template)
+[![JavaScript Style Guide: ESLint](https://img.shields.io/badge/code%20style-eslint-success?style=flat&logo=appveyor)](https://github.com/eslint/eslint "Find and fix problems in your JavaScript code.")
 
 **[Vuetify MD Pro](git@github.com:kathirr007/Vuetify-md-pro-clone)** is Clone of the Vuetify Material Dasboard Template from Creative Tim.
 
