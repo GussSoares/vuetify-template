@@ -1,6 +1,6 @@
 # Vuetify-material-dashboard-pro-clone
 
-[![Build Status](https://travis-ci.com/kathirr007/Vuetify-md-pro-clone.svg?branch=master)](https://travis-ci.com/kathirr007/Vuetify-md-pro-clone)
+[![Build Status](https://travis-ci.com/GussSoares/vuetify-template.svg?branch=main)](https://travis-ci.com/GussSoares/vuetify-template)
 
 **[Vuetify MD Pro](git@github.com:kathirr007/Vuetify-md-pro-clone)** is Clone of the Vuetify Material Dasboard Template from Creative Tim.
 
