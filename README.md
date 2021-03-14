@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.com/GussSoares/vuetify-template.svg?branch=main&style=flat-square&logo=appveyor)](https://travis-ci.com/GussSoares/vuetify-template)
 [![JavaScript Style Guide: ESLint](https://img.shields.io/badge/code%20style-eslint-success?style=flat&logo=appveyor)](https://github.com/eslint/eslint "Find and fix problems in your JavaScript code.")
 [![Maintainability](https://api.codeclimate.com/v1/badges/eabf457523fbc031382b/maintainability)](https://codeclimate.com/github/GussSoares/vuetify-template/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/eabf457523fbc031382b/test_coverage)](https://codeclimate.com/github/GussSoares/vuetify-template/test_coverage)
+[![Coverage Status](https://coveralls.io/repos/github/GussSoares/vuetify-template/badge.svg?branch=main)](https://coveralls.io/github/GussSoares/vuetify-template?branch=main)
 
 Template used to learn **Vue** + **Vuex** + **Vue Router**
 
