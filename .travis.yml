@@ -1,3 +1,7 @@
+env:
+  global:
+    - CC_TEST_REPORT_ID=5a189828ab498e2cbfa3f07feffedd924278c75dbf4a4f2bb2b60cf09deba213
+
 language: node_js
 node_js:
 - '10.15.1'
@@ -26,6 +30,8 @@ after_success:
 after_failure:
 after_script:
   - ./cc-test-reporter format-coverage -t lcov -o coverage/codeclimate.frontend.json coverage/frontend/lcov.info  # Format frontend coverage
+  - ./cc-test-reporter sum-coverage coverage/codeclimate.*.json -p 2                  # Sum both coverage parts into coverage/codeclimate.json
+  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi  # Upload coverage/codeclimate.json
 before_deploy:
 deploy:
 # Standard GH-Pages Deploy
