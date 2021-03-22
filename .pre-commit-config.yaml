@@ -1,0 +1,8 @@
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: 'v7.18.0'
+    hooks:
+    -   id: eslint
+        types: [file]
+        types_or: [javascript, jsx, ts, tsx, vue]
+        additional_dependencies:
+        -   eslint-plugin-vue@v7.5.0
