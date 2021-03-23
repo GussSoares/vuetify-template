@@ -5,6 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/eabf457523fbc031382b/maintainability)](https://codeclimate.com/github/GussSoares/vuetify-template/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/eabf457523fbc031382b/test_coverage)](https://codeclimate.com/github/GussSoares/vuetify-template/test_coverage)
 [![Coverage Status](https://coveralls.io/repos/github/GussSoares/vuetify-template/badge.svg?branch=main)](https://coveralls.io/github/GussSoares/vuetify-template?branch=main)
+[![codecov](https://codecov.io/gh/GussSoares/vuetify-template/branch/main/graph/badge.svg?token=JUVGDN5JK6)](https://codecov.io/gh/GussSoares/vuetify-template)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/GussSoares/vuetify-template/main.svg)](https://results.pre-commit.ci/badge/github/GussSoares/vuetify-template/main.svg)
 
 Template used to learn **Vue** + **Vuex** + **Vue Router**
