@@ -1,6 +1,7 @@
 env:
   global:
     - CC_TEST_REPORT_ID=5a189828ab498e2cbfa3f07feffedd924278c75dbf4a4f2bb2b60cf09deba213
+    - CODECOV_TOKEN=4a575c20-6a64-43e2-8ce5-70757163b768
 
 language: node_js
 node_js:
@@ -8,6 +9,7 @@ node_js:
 # - '8.10.0'
 cache: yarn
 before_install:
+  - pip install --user codecov
 # - chmod 755 ./deploy.sh
 install:
 - yarn install
@@ -24,6 +26,7 @@ script:
 # - "./deploy.sh"
   - yarn run lint
 after_success:
+  - codecov --file coverage/lcov.info --disable search
 # this "deploy.sh" has code to deploy files generated from vue production build
 # - gulp deploy
 # - "./deploy.sh"
